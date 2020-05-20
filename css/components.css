@@ -1,9 +1,3 @@
-/*
- * Components CSS - v6 - 2016-07-08
- * https://www.myresponsee.com
- * Copyright 2019, Vision Design - graphic zoo
- * Free to use under the MIT license.
-*/
 /* Tabs */
 .tab-item {
   background: none repeat scroll 0 0 #fff;
@@ -202,4 +196,8 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
 }
 .grid .button {
     width: 100%;
+}
+
+.shift_icon {
+    margin-left: 0%;
 }
