@@ -549,3 +549,17 @@ footer p, footer a:visited, footer a, footer a:hover {
     background-position: center;
   }
 }
+
+
+.about-us-icons i {
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	font-weight: 500;
+}
+
+	.about-us-icons i:hover {
+		background: #DDD;
+		color: #00283a;
+	}
