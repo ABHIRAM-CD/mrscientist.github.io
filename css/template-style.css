@@ -72,17 +72,7 @@ header {
 	width: 100%;
 	z-index: 10;
 }
-p.logo {
-	color: #fff;
-	font-size: 1.7em;
-	font-weight: 300;
-	position: relative;
-	text-transform: uppercase;
-	top: 17px;
-}
-p.logo strong {
-	font-weight: 700;
-}
+
 .top-nav li a {
 	border-top: 2px solid #00283a;
 	color: #fff;
@@ -172,37 +162,6 @@ p.logo strong {
 #first-block p {
 	color: #6c7c84;
 	font-size: 0.85em;
-}
-#videos {
-	background: none repeat scroll 0 0 #fff;
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-	padding: 6em 2em;
-	position: relative;
-	text-align: center;
-	z-index: 2;
-}
-#videos i {
-	background: none repeat scroll 0 0 #92c500;
-	border-radius: 100px;
-	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3) inset;
-	color: #fff;
-	display: inline-block;
-	font-size: 2em;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	width: 100px;
-}
-#videos h2 {
-	font-size: 1em;
-	font-weight: 600;
-	margin: 1.25em 0;
-	text-transform: uppercase;
-}
-#videos p {
-	color: #777;
-	font-size: 0.85em;
-	line-height: 1.5em;
 }
 #about-us {
 	background: none repeat scroll 0 0 #00283a;
@@ -406,24 +365,14 @@ a.tab-label:hover, a.tab-label.active-btn {
 	color: #fff;
 	font-size: 0.8em;
 }
-#latest-videos {
+#top-videos {
 	background: #f3f3f3 none repeat scroll 0 0;
 	box-shadow: 0px -10px 9px -11px rgba(0, 0, 0, 0.5);
 	padding: 6em 2em;
 	position: relative;
 	z-index: 3;
 }
-.news-date {
-	background: #6f9600 none repeat scroll 0 0;
-	clear: both;
-	color: #fff;
-	display: block;
-	float: none;
-	height: 130px;
-	padding: 0.625em 0;
-	text-align: center;
-	width: 100%;
-}
+
 .day {
 	font-size: 2.5em;
 	font-weight: 700;
@@ -431,15 +380,14 @@ a.tab-label:hover, a.tab-label.active-btn {
 .month, .year {
 	font-size: 0.85em;
 }
-.news-text {
+.top-text {
 	background: #fff none repeat scroll 0 0;
 	border-bottom: 1px solid #e0e0e0;
 	border-right: 1px solid #e0e0e0;
 	border-top: 1px solid #e0e0e0;
-	height: 130px;
 	padding: 0.625em 1.25em;
 }
-.news-text p {
+.top-text p {
 	color: #777;
 	font-size: 0.85em;
 }
@@ -544,12 +492,14 @@ footer p, footer a:visited, footer a, footer a:hover {
     height: 51px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .background-image {
     background-position: center;
   }
 }
 
+/*CSS By ME*/
 
 .about-us-icons i {
 	-moz-transition: .3s ease-in-out;
@@ -559,7 +509,47 @@ footer p, footer a:visited, footer a, footer a:hover {
 	font-weight: 500;
 }
 
-	.about-us-icons i:hover {
+.about-us-icons i:hover {
 		background: #DDD;
 		color: #00283a;
+}
+
+#top-videos iframe {
+	width: 32em;
+	height: 18em;
+	padding: 20px;
+	border: none;
+	float: left;
+}
+
+@media screen and (max-width: 768px) {
+
+	#top-videos iframe {
+		width: 25em;
+		height: 15em;
 	}
+
+}
+
+#contact p i {
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	font-weight:500;
+}
+
+#contact p:hover .icon-sli-social-youtube {
+	color:#FFF;
+	background:#B00;
+}
+
+#contact p:hover .icon-sli-social-instagram {
+	color: mediumvioletred;
+	background: #EEE;
+}
+
+#contact p:hover .icon-sli-envelope {
+	color: #B00;
+	background: #EEE;
+}
